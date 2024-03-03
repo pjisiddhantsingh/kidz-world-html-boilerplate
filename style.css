@@ -1,0 +1,30 @@
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.books {
+  width: 150px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container div {
+  padding: 5px;
+}
+.games,
+.crafts {
+  width: 150px;
+}
+footer {
+  background-color: black;
+  padding: 20px;
+}
+footer img {
+  width: 80px;
+  border-radius: 50%;
+}
+footer h3,
+p {
+  color: white;
+}
