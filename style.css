@@ -9,6 +9,41 @@
 .books {
   width: 150px;
 }
+.stack {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  padding: 20px;
+  overflow: hidden;
+  color: white;
+}
+
+.header-text {
+  position: relative;
+}
+.image {
+  width: 100%;
+}
+.button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(50, 116, 210);
+  height: 30px;
+  width: 60px;
+  border-radius: 10px;
+}
+.space-evenly {
+  padding: 10px;
+}
+.button img {
+  width: 20px;
+  margin-left: 8px;
+}
+.button h6 {
+  color: white;
+  font-size: 14px;
+}
 .container {
   display: flex;
   justify-content: space-between;
@@ -33,10 +68,14 @@ p {
   color: white;
 }
 @media screen and (max-width: 480px) {
-    *{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+  * {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .stack {
+    font-size: 8px;
+    padding: 5px;
+  }
   .container {
     display: flex;
     flex-direction: column;
